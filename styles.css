@@ -87,33 +87,32 @@ nav ul li a:hover {
 
 /* Hero Section */
 .marquee {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 100%;
-  background: #f0f0f0; /* Optional background */
-  padding: 10px 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background: #f5f5f5; /* Optional background */
+    height: 300px; /* Set your desired height */
 }
 
 .marquee-content {
-  display: inline-block;
-  animation: scroll-left 20s linear infinite;
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+    height: 100%;
 }
 
 .marquee-content img {
-  width: 700px;
-  height: auto;
-  margin-right: 30px;
-  vertical-align: middle;
-  border-radius: 8px; /* Optional styling */
+    height: 100%;
+    width: auto;
+    margin-right: 20px; /* Space between images */
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-@keyframes scroll-left {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
 }
 
 
