@@ -206,13 +206,13 @@ nav ul li a:hover {
 .stat-item {
     text-align: center;
     padding: 1rem;
-    background-color: #f0f0f0;
+    background-color:whitesmoke;
     border-radius: 8px;
     transition: all 0.3s;
 }
 
 .stat-item:hover {
-    background-color: #e0e0e0;
+    background-color:salmon;
     transform: translateY(-5px);
 }
 
