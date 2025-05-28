@@ -547,3 +547,48 @@ footer {
         padding: 2rem 0;
     }
 }
+
+
+
+
+
+.school-name {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f9f9f9; /* Optional background */
+}
+
+.school-name h1 {
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.school-name p {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* ✅ Responsive Adjustments */
+@media (max-width: 768px) {
+  .school-name h1 {
+    font-size: 2rem;
+  }
+
+  .school-name p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .school-name h1 {
+    font-size: 1.5rem;
+  }
+
+  .school-name p {
+    font-size: 1rem;
+  }
+}
